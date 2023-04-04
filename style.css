@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(219, 209, 214);
+    text-align: justify;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border: 5px double red;
+    padding: 10px;
+    margin: 100px;
+}
+
+h4{
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+#imagem1 {
+    border: 5px solid #a753ba;
+    width: 50px;
+}
+
+#imagem2 {
+    border: 10px dotted #711b84;
+    height: 10%;
+    width: 10%;
+}
+.imagem3 {
+    width: 30%;
+    height: 40%;
+}
+
+li::marker {
+    content: "\2606";
+    color:blue;
+    font-size: 30px;
+}
+
+.itens {
+    background-color: black;
+    color: yellow;
+  
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
+}
